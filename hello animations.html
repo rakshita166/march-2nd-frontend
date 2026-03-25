@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <title>Hello Animation</title>
+    <style>
+      .one {
+        height: 400px;
+        width: 400px;
+        background-color: blue;
+        font-size: 200px;
+        text-align: center;
+        animation-name: Hello;
+        animation-duration: 4s;
+        position: relative;
+      }
+      /*@keyframes Hello {
+        from {
+          background-color: red;
+        }
+        to {
+          background-color: violet;
+        }*/
+
+      @keyframes Hello {
+        0% {
+          top: 0px;
+          left: 0px;
+        }
+        25% {
+          top: 200px;
+          left: 200px;
+        }
+        50% {
+          top: 200px;
+          left: 200px;
+        }
+        75% {
+          top: 200px;
+          left: 0px;
+        }
+        100% {
+          top: 0px;
+          left: 0px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="one">1</div>
+  </body>
+</html>
